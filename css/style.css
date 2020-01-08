@@ -34,7 +34,7 @@ body::-webkit-scrollbar{
 }
 
 #title-face h2{
-  font-size: 1.4vw;
+  font-size: 1.6vw;
   font-weight: bold;
   line-height: 1.2vw;
   color: #b46c01;
@@ -54,15 +54,20 @@ body::-webkit-scrollbar{
   width: 80%;
   height: 6vh;
   margin: auto;
-  text-align: center;
-  background-color: rgba(255, 153, 36,.7);
+  background-color: rgba(0, 61, 117, 0.7);
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  -moz-box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 3px 4px 3px rgba(0, 0, 0, .5);
+}
+
+#navbar ul {
+  text-align: center;
 }
 
 #navbar ul li{
   display: inline-block;
-  padding: 10px 45px 5px 45px;
+  padding: 1.5vh 45px 1vh 45px;
 }
 
 .links{
@@ -75,9 +80,19 @@ body::-webkit-scrollbar{
 
 #navbar ul li a{
   text-decoration: none;
-  font-size: 20px;
-  color: aliceblue;
-  color: black;
+  font-size: 2vh;
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, .5);
+  color: rgb(255, 255, 255);
+}
+
+#navbar ul li a:hover {
+  color: #b46c01;
+  cursor: pointer;
+}
+
+#navbar ul li a:active {
+  color: #b46c01;
+  cursor: pointer;
 }
 
 .page{
@@ -90,4 +105,5 @@ body::-webkit-scrollbar{
   border: 0px solid rgb(251, 247, 239);
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-}
+  -moz-box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 3px 4px 3px rgba(0, 0, 0, .5);
